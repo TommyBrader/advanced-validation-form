@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Validation Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>FizzBuzz Generator!</h1>
+    <h2>
+      Submit Two Numbers and We'll Tell You Whether the Numbers Between Them are
+      <span
+        title="Numbers divisible by 3 are Fizz, Numbers divisible by 5 are Buzz, Numbers divisible by both are FizzBuzz"
+        id="fizzbuzz"
+        >FizzBuzz</span
+      >:
+    </h2>
+    <section id="number-input">
+      <form>
+        <div id="inputs">
+          <input
+            type="number"
+            name="min-value"
+            placeholder="Min Value"
+            id="number-input-min"
+          />
+          <input
+            type="number"
+            name="max-value"
+            placeholder="Max Value"
+            id="number-input-max"
+          />
+        </div>
+        <div id="fizzbuzz-button">
+          <button type="submit">Submit</button>
+        </div>
+        <p id="result">Result: <span></span></p>
+      </form>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
